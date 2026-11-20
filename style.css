@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(192, 135, 225);
+}
+
+header {
+    background-color: rgb(116, 0, 232);
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav {
+    background-color: rgb(213, 236, 236);
+    position:sticky;
+    top:0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+}
+
+#intro {
+    background-color: rgb(129, 121, 221);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.main-section-content {
+    background-color: rgb(171, 72, 232);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bestsellers,
+footer {
+    background-color: rgb(255, 210, 128);
+}
+
+header,
+nav,
+#intro,
+#main-section,
+#bestsellers,
+footer {
+    border: 1px solid black;
+}
+
+header,
+nav,
+#main-section {
+    border-radius: 10px;
+}
+
+header h1 {
+    color: aquamarine;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+}
+
+h2,
+p {
+    color: rgb(35, 3, 3);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+span {
+    color: rgb(14, 1, 26);
+}
+
+footer p:first-child {
+    color: palevioletred
+}
+
+.teacher-info {
+    border: 1px solid rgb(26, 9, 9);
+    border-radius: 5px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 6px 0px 21px -3px rgb(175, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: paleturquoise ;
+    color:rgb(1, 7, 7);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+li a:hover {
+    color: red;
+}
+p {
+    font-size: 20px;
+}
+h3{ 
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+     text-decoration: underline;
+}
+
+nav li {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.teacher-info div:last-child {
+    margin-left: 50px;
+}
+
+.main-section-content {
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#bestsellers h2 {
+    padding: 20px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+#book-reviws p,
+#book-reviws h3{
+    position: relative;
+    left: 40%;
+    width: 400%;
+}
+
+#videos div {
+    display: flex;
+    justify-content: space-around;
+}
+#teachers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
